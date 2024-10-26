@@ -1,0 +1,91 @@
+* {
+    font-family: "MV Boli", serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.main_back_div {
+    background-color: #101010;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_div {
+    width: 30%;
+    height: auto;
+    box-shadow: 0 0 1em cadetblue;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.input_div h1 {
+    width: 100%;
+    text-align: center;
+    filter: drop-shadow(0 0 10px #9ce807);
+    color: yellow;
+}
+
+.input_div label {
+    width: 75%;
+    display: block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    margin-top: 30px;
+}
+
+.input_div input {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #101010;
+    border: 1px solid cadetblue;
+    padding: 7px 0;
+    text-align: center;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 5px #07e8b4);
+    color: yellow;
+}
+
+.input_div button {
+    width: 75%;
+    padding: 7px 0;
+    filter: drop-shadow(0 0 5px #07e8b4);
+    margin-top: 60px;
+    margin-bottom: 30px;
+    background-color: rgba(211, 255, 127, 0.6);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.input_div button:hover {
+    background-color: rgba(211, 255, 127, 0.96);
+    transform: scale(0.95);
+}
+
+.input_div img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 9px;
+    right: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.input_div img:hover {
+    opacity: 0.7;
+    transform: scale(0.9);
+}
